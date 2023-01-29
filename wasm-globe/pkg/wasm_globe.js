@@ -379,10 +379,6 @@ function getImports() {
         const ret = getObject(arg0).offsetY;
         return ret;
     };
-    imports.wbg.__wbg_button_2bb5dc0116d6b89b = function(arg0) {
-        const ret = getObject(arg0).button;
-        return ret;
-    };
     imports.wbg.__wbg_appendChild_e513ef0e5098dfdd = function() { return handleError(function (arg0, arg1) {
         const ret = getObject(arg0).appendChild(getObject(arg1));
         return addHeapObject(ret);
@@ -452,11 +448,11 @@ function getImports() {
     imports.wbg.__wbindgen_rethrow = function(arg0) {
         throw takeObject(arg0);
     };
-    imports.wbg.__wbindgen_closure_wrapper66 = function(arg0, arg1, arg2) {
+    imports.wbg.__wbindgen_closure_wrapper65 = function(arg0, arg1, arg2) {
         const ret = makeMutClosure(arg0, arg1, 19, __wbg_adapter_18);
         return addHeapObject(ret);
     };
-    imports.wbg.__wbindgen_closure_wrapper67 = function(arg0, arg1, arg2) {
+    imports.wbg.__wbindgen_closure_wrapper66 = function(arg0, arg1, arg2) {
         const ret = makeMutClosure(arg0, arg1, 19, __wbg_adapter_21);
         return addHeapObject(ret);
     };

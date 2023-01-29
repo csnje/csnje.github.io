@@ -1,0 +1,16 @@
+{
+  "name": "wasm-mandelbrot",
+  "collaborators": [
+    "Chris Snape-Jenkinson"
+  ],
+  "version": "0.1.1",
+  "license": "MIT",
+  "files": [
+    "wasm_mandelbrot_bg.wasm",
+    "wasm_mandelbrot.js",
+    "wasm_mandelbrot.d.ts"
+  ],
+  "module": "wasm_mandelbrot.js",
+  "types": "wasm_mandelbrot.d.ts",
+  "sideEffects": false
+}

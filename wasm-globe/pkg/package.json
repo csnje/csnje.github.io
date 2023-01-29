@@ -1,0 +1,16 @@
+{
+  "name": "wasm-globe",
+  "collaborators": [
+    "Chris Snape-Jenkinson"
+  ],
+  "version": "0.1.1",
+  "license": "MIT",
+  "files": [
+    "wasm_globe_bg.wasm",
+    "wasm_globe.js",
+    "wasm_globe.d.ts"
+  ],
+  "module": "wasm_globe.js",
+  "types": "wasm_globe.d.ts",
+  "sideEffects": false
+}

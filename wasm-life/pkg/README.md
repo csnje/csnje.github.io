@@ -4,6 +4,8 @@
 
 An implementation of [Conway's Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) in Rust WebAssembly.
 
+![Image from Conway's Game of Life](./images/output.png)
+
 ## Prerequisites
 
 Install [wasm-pack](https://github.com/rustwasm/wasm-pack).
@@ -12,6 +14,10 @@ Install [wasm-pack](https://github.com/rustwasm/wasm-pack).
 
 ```bash
 wasm-pack build --target web
+```
+or optimised for release
+```bash
+wasm-pack build --target web --release
 ```
 
 ## Serve and run

@@ -3,7 +3,7 @@
   "collaborators": [
     "Chris Snape-Jenkinson"
   ],
-  "version": "0.1.2",
+  "version": "0.1.3",
   "license": "MIT",
   "files": [
     "wasm_globe_bg.wasm",
@@ -12,5 +12,7 @@
   ],
   "module": "wasm_globe.js",
   "types": "wasm_globe.d.ts",
-  "sideEffects": false
+  "sideEffects": [
+    "./snippets/*"
+  ]
 }

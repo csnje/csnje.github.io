@@ -1,0 +1,21 @@
+{
+  "name": "wasm-maze",
+  "collaborators": [
+    "Chris Snape-Jenkinson"
+  ],
+  "description": "An implementation of maze generation and solving algorithms",
+  "version": "0.1.0",
+  "license": "MIT OR APACHE-2.0",
+  "files": [
+    "wasm_maze_bg.wasm",
+    "wasm_maze.js",
+    "wasm_maze.d.ts",
+    "LICENSE-MIT",
+    "LICENSE-APACHE"
+  ],
+  "module": "wasm_maze.js",
+  "types": "wasm_maze.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}

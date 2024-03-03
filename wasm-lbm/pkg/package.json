@@ -1,0 +1,19 @@
+{
+  "name": "wasm-lbm",
+  "collaborators": [
+    "Chris Snape-Jenkinson"
+  ],
+  "description": "An implementation of the Lattice Boltzmann method",
+  "version": "0.1.0",
+  "license": "MIT",
+  "files": [
+    "wasm_lbm_bg.wasm",
+    "wasm_lbm.js",
+    "wasm_lbm.d.ts"
+  ],
+  "module": "wasm_lbm.js",
+  "types": "wasm_lbm.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}

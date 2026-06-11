@@ -1,11 +1,13 @@
 /* tslint:disable */
 /* eslint-disable */
 export const memory: WebAssembly.Memory;
-export function main(): void;
-export function __wbindgen_malloc(a: number, b: number): number;
-export function __wbindgen_realloc(a: number, b: number, c: number, d: number): number;
-export const __wbindgen_export_2: WebAssembly.Table;
-export function wasm_bindgen__convert__closures__invoke1_mut__hc1c94badd9bb5ed1(a: number, b: number, c: number): void;
-export function wasm_bindgen__convert__closures__invoke0_mut__hd2a3564c356c9152(a: number, b: number): void;
-export function __wbindgen_exn_store(a: number): void;
-export function __wbindgen_start(): void;
+export const main: () => void;
+export const wasm_bindgen__convert__closures_____invoke__hb9ba427434f92b16: (a: number, b: number, c: any) => void;
+export const wasm_bindgen__convert__closures_____invoke__h26c3b628fb328bb2: (a: number, b: number) => void;
+export const __wbindgen_malloc: (a: number, b: number) => number;
+export const __wbindgen_realloc: (a: number, b: number, c: number, d: number) => number;
+export const __wbindgen_exn_store: (a: number) => void;
+export const __externref_table_alloc: () => number;
+export const __wbindgen_externrefs: WebAssembly.Table;
+export const __wbindgen_destroy_closure: (a: number, b: number) => void;
+export const __wbindgen_start: () => void;
